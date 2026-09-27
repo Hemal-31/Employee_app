@@ -1,0 +1,25 @@
+.Nav-Bar ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Nav-Bar a {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #0b5d1e;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: Consolas, 'Courier New', monospace;
+}
+
+.Nav-Bar a:hover
+{
+  background: #d6d3c8;
+  color: #111827;
+}
